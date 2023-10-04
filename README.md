@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Search Webpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive web application built with React. It allows users to search and paginate through webpages using keywords. The application uses mock data from a JSON file for demonstration purposes and includes routing for easy navigation. The styling is done using CSS, and the components are designed for reusability and composition.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get started with this project, follow these steps:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/Abhijeet4147/search_webpage.git
 
-### `npm test`
+1.Navigate to the project directory:
+cd car-search-website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.Install dependencies:
+npm install
 
-### `npm run build`
+3.Start the application:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features:-
+Search for webpages using keywords.
+Pagination to navigate through search results.
+Responsive design for various screen sizes.
+Routing for easy navigation between pages.
+Mock data from a JSON file for demonstration.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Folder Structure
+The project structure is organized as follows:
+src/
+  |- components/
+  |  |- Header.js
+  |  |- SearchBar.js
+  |  |- SearchResults.js
+  |  |- Pagination.js
+  |- data/
+  |  |- mockData.json
+  |- App.js
+  |- index.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-components/: Contains reusable React components.
+-data/: Contains the mock data JSON file.
 
-### `npm run eject`
+Usage:-
+Enter keywords in the search bar to search for webpages.
+Use pagination buttons to navigate through search results.
+Click on search results to view more details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Screenshots:-
+(https://github.com/Abhijeet4147/search_webpage/assets/79394803/189952be-8444-42a5-83f7-74a16096d93d)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+(https://github.com/Abhijeet4147/search_webpage/assets/79394803/ddbe9007-18ad-4340-b1d2-d11f9a2ba1f2)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contact
+ABHIJEET Mundhe - abhijeetmundhe55@gmail.com 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: https://github.com/Abhijeet4147/search_webpage
