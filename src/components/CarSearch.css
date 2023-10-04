@@ -1,0 +1,58 @@
+/* CarSearch.css */
+body {
+  background-color: #dceaef; /* Replace with your desired background color */
+}
+.pagination-box {
+  border: 1px solid #d3d0d0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  margin: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-count {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.pagination-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Move the pagination to the right */
+}
+
+.pagination-arrows {
+  margin-right: 10px;
+}
+
+.pagination-link {
+  color: #050101;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1.5px solid #000000;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.pagination-link.active {
+  background-color: #007BFF;
+  color: white;
+}
+
+.pagination-link:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.pagination-link.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
